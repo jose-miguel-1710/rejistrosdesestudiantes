@@ -1,0 +1,19 @@
+table {
+    width: 50%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  thead {
+    background-color: #ccc;
+  }
+  body{
+    background-color: red;
+  }

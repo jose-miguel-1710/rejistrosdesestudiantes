@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tabla de Estudiantes</title>
+<link rel="stylesheet" href="crud.css">
+</head>
+<body>
+<div class="container">
+  <h2>Tabla de Estudiantes</h2>
+  <form id="student-form">
+    <input type="text" id="firstname" placeholder="Nombre">
+    <input type="text" id="lastname" placeholder="Apellido" required>
+    <input type="number" id="note1" min="0" max="100" placeholder="Nota 1" required>
+    <input type="number" id="note2" min="0" max="100" placeholder="Nota 2" required>
+    <input type="number" id="note3" min="0" max="100" placeholder="Nota 3" required>
+    <button type="button" onclick="agregarEstudiante()">Agregar Estudiante</button>
+  </form>
+  <table id="tabladeestudiantes">
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>Nota 1</th>
+        <th>Nota 2</th>
+        <th>Nota 3</th>
+        <th>Promedio</th>
+        
+      </tr>
+    </thead>
+    <tbody>
+      <th id="mostrar">opciones</th>
+    </tbody>
+  </table>
+</div>
+<script src="crud.js"></script>
+</body>
+</html>
